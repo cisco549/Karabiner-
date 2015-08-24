@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name> Swap Microsoft DeskTop 800 keys pt-pt </name>
+    <identifier>private.swap_keys_pt</identifier>
+    <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::BACKSLASH</autogen>
+    <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, KeyCode::BACKQUOTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::HELP, KeyCode::PC_INSERT</autogen>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::EQUAL</autogen>
+    <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::BRACKET_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::BACKSLASH, KeyCode::QUOTE</autogen>
+  </item>
+
+  <item>
+  	<name> Guillemet quotes Microsoft DeskTop 800 keys pt-pt</name>
+  	<identifier>private.config_guillemet_quotes</identifier>
+  	<autogen>
+    	__KeyToKey__ 
+    	KeyCode:: EQUAL, 
+    	KeyCode:: X, ModifierFlag:: OPTION_L
+    </autogen>
+    <autogen>
+    	__KeyToKey__ 
+    	KeyCode:: EQUAL, 
+    	KeyCode:: X, ModifierFlag:: OPTION_R
+    </autogen>
+    <autogen>
+    	__KeyToKey__ 
+    	KeyCode:: EQUAL, ModifierFlag:: SHIFT_L,
+    	KeyCode:: X, ModifierFlag:: OPTION_L | ModifierFlag:: SHIFT_L
+    </autogen>
+  </item>
+
+<item>
+    <name> Swap Curly Brackets Microsoft DeskTop 800 keys pt-pt </name>
+    <identifier>private.swap_curly_brackets_pt</identifier>
+    <autogen>
+    	__KeyToKey__ 
+    	KeyCode::KEY_7, ModifierFlag:: OPTION_R, 
+    	KeyCode::KEY_8, ModifierFlag:: OPTION_R | ModifierFlag:: SHIFT_R
+    </autogen>
+
+    <autogen>
+    	__KeyToKey__ 
+    	KeyCode::KEY_7, ModifierFlag:: OPTION_L, 
+    	KeyCode::KEY_8, ModifierFlag:: OPTION_R | ModifierFlag:: SHIFT_R
+    </autogen>
+    
+    <autogen>
+    	__KeyToKey__ 
+    	KeyCode::KEY_0, ModifierFlag:: OPTION_R, 
+    	KeyCode::KEY_9, ModifierFlag:: OPTION_R | ModifierFlag:: SHIFT_R
+    </autogen>
+
+    <autogen>
+    	__KeyToKey__ 
+    	KeyCode::KEY_0, ModifierFlag:: OPTION_L, 
+    	KeyCode::KEY_9, ModifierFlag:: OPTION_R | ModifierFlag:: SHIFT_R
+    </autogen>
+</item>
+
+<item>
+    <name> Swap PC Application Key to FN key Microsoft DeskTop 800 keys pt-pt </name>
+    <identifier>private.swap_fn_pt</identifier>
+    <autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::FN</autogen>
+</item>
+
+</root>
+  
